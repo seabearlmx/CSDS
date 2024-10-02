@@ -119,7 +119,7 @@ __C.DATASET.BDD_DIR = <YOUR_BDD_PATH>
 #Synthia Dataset Dir Location
 __C.DATASET.SYNTHIA_DIR = <YOUR_SYNTHIA_PATH>
 ```
-3. You should download pre-trained photo_wct.pth and move it on **"<path_to_csds>/pretrain"**.
+3. You should download pre-trained [photo_wct.pth](https://github.com/seabearlmx/CSDS/releases/tag/Pretrain) and move it on **"<path_to_csds>/pretrain"**.
 4. You can train CSDS with following commands.
 ```
 <path_to_csds>$ CUDA_VISIBLE_DEVICES=0,1,2,3 ./scripts/train_r50os16_gtav_base.sh # Train: GTAV, Test: BDD100K, Cityscapes, Synthia, Mapillary / ResNet50, DeepLabV3+
