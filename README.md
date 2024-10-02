@@ -1,5 +1,5 @@
 ## CSDS (TITS 2024 Under Review): Official Project Webpage
-This repository provides the official PyTorch implementation of the following paper:
+This is an initial code (V1) of the following paper:
 > **CSDS:** Class-Balanced Sampling and Discriminative Stylization for Domain Generalization Semantic Segmentation<br>
 > TITS 2024, Under Review<br>
 
